@@ -1,0 +1,2 @@
+..\..\tools\prosodyanalyzer\SMILExtract_Release.exe -C prosodyAcf.conf -I welcome.wav -O welcome.wavAcf.csv
+..\..\tools\prosodyanalyzer\SMILExtract_Release.exe -C prosodyAcf.conf -I welcome_hsmm.wav -O welcome_hsmm.wavAcf.csv

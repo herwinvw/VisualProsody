@@ -1,0 +1,50 @@
+[1] "learning gmm with 2 mixtures"
+[1] "learning gmm with 3 mixtures"
+number of iterations= 43 
+[1] "loglike on training -280364.690750519"
+[1] "loglike on cv -91706.1556189584"		-> k = 2 OK
+[1] "learning gmm with 6 mixtures"
+number of iterations= 89 
+[1] "loglike on training -274491.091613246"
+[1] "loglike on cv -90293.620820202"		-> k = 3 OK
+[1] "learning gmm with 7 mixtures"
+number of iterations= 135 
+[1] "loglike on training -274433.453957902"
+[1] "loglike on cv -90313.6194758677"		-> k = 4 OK
+[1] "learning gmm with 8 mixtures"
+number of iterations= 167 
+[1] "loglike on training -270204.676236408"
+[1] "loglike on cv -88859.386796313"		-> k~5 OK
+[1] "learning gmm with 9 mixtures"
+number of iterations= 153 
+[1] "loglike on training -269407.228211811"	-> 6, different from file, OK??
+[1] "loglike on cv -88455.2654394919"
+[1] "learning gmm with 10 mixtures"
+number of iterations= 271 
+[1] "loglike on training -268933.969930066" -> k = 7 OK
+[1] "loglike on cv -88362.9038502251"
+[1] "learning gmm with 11 mixtures"
+WARNING! NOT CONVERGENT! 
+number of iterations= 400 
+[1] "loglike on training -268815.136395539" -> k = 8 NOT CONVERGENT
+[1] "loglike on cv -88508.5209304156"
+[1] "learning gmm with 12 mixtures"
+WARNING! NOT CONVERGENT! 
+number of iterations= 400 
+[1] "loglike on training -268059.713737944" -> k = 9, different from file, NOT CONVERGENT
+[1] "loglike on cv -88361.2828456375"
+[1] "learning gmm with 13 mixtures"
+number of iterations= 365 
+[1] "loglike on training -268107.305851825"-> k = 10 OK
+[1] "loglike on cv -88303.7348856734"
+[1] "learning gmm with 14 mixtures"
+WARNING! NOT CONVERGENT! 
+number of iterations= 400 -> k = 11
+[1] "loglike on training -267756.740488638"-> k = 11 NOT CONVERGENT
+[1] "loglike on cv -88471.5079496918"
+[1] "learning gmm with 15 mixtures"
+number of iterations= 397 
+[1] "loglike on training -267552.075663648"-> k = 12 OK
+[1] "loglike on cv -88307.3200215813"
+
+REDO: k = 6 (?), k = 8

@@ -1,0 +1,5 @@
+roll: home
+pitch: done
+yaw: patty
+v: gil
+a: lisa

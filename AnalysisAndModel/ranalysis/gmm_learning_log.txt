@@ -1,0 +1,32 @@
+[1] "learning gmm with 1 mixture"
+[1] "loglike on training -292096.123607687"
+[1] "loglike on cv -97839.0147259891"
+[1] "learning gmm with 2 mixtures"
+number of iterations= 34 
+[1] "loglike on training -269022.068377858"
+[1] "loglike on cv -87861.2438003596"
+[1] "learning gmm with 3 mixtures"
+number of iterations= 52 
+[1] "loglike on training -263289.080417955"
+[1] "loglike on cv -86484.079543269"
+[1] "learning gmm with 4 mixtures"
+number of iterations= 120 
+[1] "loglike on training -261061.883566866"
+[1] "loglike on cv -85679.9621402512"
+[1] "learning gmm with 5 mixtures"
+number of iterations= 229 
+[1] "loglike on training -259655.594082171"
+[1] "loglike on cv -85291.2475864123"
+[1] "learning gmm with 6 mixtures"
+number of iterations= 152 
+[1] "loglike on training -259287.391970842"
+[1] "loglike on cv -85173.5197436494"
+[1] "learning gmm with 7 mixtures"
+number of iterations= 390 
+[1] "loglike on training -258637.589097558"
+[1] "loglike on cv -85085.6665016675"
+[1] "learning gmm with 8 mixtures"
+number of iterations= 264 
+[1] "loglike on training -257820.873828286"
+[1] "loglike on cv -84650.0657527759"
+[1] "learning gmm with 9 mixtures"

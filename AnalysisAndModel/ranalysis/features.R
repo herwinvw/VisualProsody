@@ -1,0 +1,17 @@
+library(stringr)
+source("getSessionFeatures.R")
+improMFeatures<-list()
+improFFeatures<-list()
+scriptMFeatures<-list()
+scriptFFeatures<-list()
+for (i in 1:5){
+  dir <- paste0("../corpus/IEMOCAP_full_release/Session",i,"/sentences/")
+  improMFeatures[[i]] <- getSessionFeatures(dir,"M","impro")
+  improFFeatures[[i]] <- getSessionFeatures(dir,"F","impro")
+  scriptMFeatures[[i]] <- getSessionFeatures(dir,"M","script")
+  scriptFFeatures[[i]] <- getSessionFeatures(dir,"F","script")
+  write.table(improMFeatures[[i]], file=paste0("improMFeatures",i,".csv"),sep=",",row.names=FALSE)
+  write.table(improFFeatures[[i]], file=paste0("improFFeatures",i,".csv"),sep=",",row.names=FALSE)
+  write.table(scriptMFeatures[[i]], file=paste0("scriptMFeatures",i,".csv"),sep=",",row.names=FALSE)
+  write.table(scriptFFeatures[[i]], file=paste0("scriptFFeatures",i,".csv"),sep=",",row.names=FALSE)
+}

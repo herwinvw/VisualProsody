@@ -1,0 +1,12 @@
+classes
+.Rproj.user
+.Rhistory
+.RData
+ranalysis/*.csv
+*.log
+IEMOCAP_full_release
+gmm.xml
+*.swp
+bin
+*.*~
+*.rda

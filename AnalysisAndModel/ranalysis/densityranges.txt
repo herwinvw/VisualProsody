@@ -1,0 +1,19 @@
+Voiced density ranges
+yaw: 0.0001..0.0004 (visually checked as averaged over rmsEnergy, otherwise 3.29e-27..0.010, log: -61.0..-4.58)
+roll: 0.0001..0.0003
+pitch: 0.0001..0.0005
+v: 0.01..0.04
+a: 0.03..0.12
+multiplied range (averaged over rmsEnergy): 3e-16..2.88e-13
+log added range (averaged over rmsEnergy): -35.74275..-28.87582
+
+
+Unvoiced density ranges
+yaw: 0.5..2.5
+pitch: 1..3
+roll: 1..3
+v: 200..600
+a: 500..2000
+
+Java double:
+8 bytes IEEE 754. Covers a range from 4.94065645841246544e-324d to 1.79769313486231570e+308d (positive or negative). 

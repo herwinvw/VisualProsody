@@ -1,0 +1,52 @@
+Contains several tools and scripts for IEMocap analysis.
+
+Videosplit
+Splits up the videos in the corpus so that one video is created for each sentence. Requires ffmpeg to be in the path, 
+creates mpg videos that can be imported in elan. Sentences are put in the sentences/avi directory
+videosplit.py
+
+Python scripts to generate head/face mocap trajectories that can be imported in Elan:
+facemocaptoelan.py
+headmocaptoelan.py
+
+Overlap analysis
+Analyzes the position and amount of overlapping speech in a session. Calculations are based on forcedalignment timing data in the corpus.
+Results are printed to stdout.
+overlap.py
+
+Prosody analysis
+prosodyanalyzer/processProsody.py
+Analyzes the prosody (energy,pitch) of all wav files in the corpus. Results are stored CSV files in sentences/wav.
+
+Part-of-speech tagging/pattern matching
+nlpparser java project, POSGenerator: Analyzes the words from the forced alignment data and tags all of the using opennlp. Results are stored in the sentences/ForcedAligment directory as .wdsegpos files.
+nlpparser java project, PatternMatcher: Analyzes the words from the forced alignment data and checks if they match certain word categories. Results are stored in the sentences/ForcedAligment directory as .wdsegpatterns files.
+
+Corpus reproduction
+bmlt java project, reproduces a specific sentence in the corpus in BML with bmlt extensions for e.g. keyframing.
+
+MaryTTS analysis
+ranalysis/analyseMarySample.r	Plot prosody from Mary HSMM and Unit selection vs prosody from OpenSMILE
+
+r analysis/machine learning
+ranalysis directory.
+Main scripts:
+features.r:					Obtain all features used in Le et al 2012 from the corpus data. Features are stored in .csv files and in global parameters.
+featuresTrimmed.r:			Like features.r, but trims silence at the start and end of each sentence.
+featuresLe2012.r:			Obtain all features according to exactly the framerate and opensmile parameters used in Le et al 2012. Features are stored in .csv files and in global parameters.
+featuresTrimmedLe2012.r:	Like featuresLe2012.r, but trims silences at the start and end of each sentence
+trainGMMUnVoiced.r:			Train the GMM model for unvoiced data
+trainGMMVoiced.r:			Train the GMM model for voiced data
+
+cca analysis
+ranalysis directory.
+calculateccas.r:			Calculate the combined cca values for all sessions of each type (impro vs scripted) and each actor
+testCCAAll.r:				Test merged CCA of all actors and types vs cca in random condition
+testScriptVSImpro.r			Tests the CCA of scripted vs improvised interactions
+writeGMMToXML.r:			Write a learned GMM model to an XML file
+
+cvselectGMMdesign.r			CV tests to check the number of needed GMMs
+cvselectGMMdesign0f0.r		CV tests to check the number of needed GMMs for f0=0
+
+plotdata.r					data visualizations
+plotgmm.r					visualizations of the learned GMMs

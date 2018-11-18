@@ -1,0 +1,16 @@
+library(stringr)
+improMFeaturesLe2012<-list()
+improFFeaturesLe2012<-list()
+scriptMFeaturesLe2012<-list()
+scriptFFeaturesLe2012<-list()
+for (i in 1:5){
+  dir <- paste0("../corpus/IEMOCAP_full_release/Session",i,"/sentences/")
+  improMFeaturesLe2012[[i]] <- getSessionFeaturesLe2012(dir,"M","impro")
+  improFFeaturesLe2012[[i]] <- getSessionFeaturesLe2012(dir,"F","impro")
+  scriptMFeaturesLe2012[[i]] <- getSessionFeaturesLe2012(dir,"M","script")
+  scriptFFeaturesLe2012[[i]] <- getSessionFeaturesLe2012(dir,"F","script")
+  write.table(improMFeaturesLe2012[[i]], file=paste0("improMFeaturesLe2012",i,".csv"),sep=",",row.names=FALSE)
+  write.table(improFFeaturesLe2012[[i]], file=paste0("improFFeaturesLe2012",i,".csv"),sep=",",row.names=FALSE)
+  write.table(scriptMFeaturesLe2012[[i]], file=paste0("scriptMFeaturesLe2012",i,".csv"),sep=",",row.names=FALSE)
+  write.table(scriptFFeaturesLe2012[[i]], file=paste0("scriptFFeaturesLe2012",i,".csv"),sep=",",row.names=FALSE)
+}

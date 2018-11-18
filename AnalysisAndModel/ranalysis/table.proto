@@ -1,0 +1,12 @@
+package visualprosody;
+
+message Feature {
+  required double f0=1;
+  required double rmsEnergy=2;
+  required double m=3;
+  required double P=4;
+}
+
+message Table  {  
+  repeated Feature features = 1;
+}

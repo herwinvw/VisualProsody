@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry combineaccessrules="false" kind="src" path="/AsapFaceEngine"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/commons-csv-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="lib/HmiUtil-1.30-dev917.jar"/>
+	<classpathentry kind="lib" path="lib/HmiXml-1.19-dev917.jar"/>
+	<classpathentry kind="lib" path="lib/openbmlparser-0.17-dev708.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/HmiMath-0.19-dev921.jar"/>
+	<classpathentry kind="lib" path="lib/AsapFaceEngine-0.27-dev1004.jar"/>
+	<classpathentry kind="lib" path="lib/HmiAnimation-0.24-dev929.jar"/>
+	<classpathentry kind="lib" path="lib/HmiFaceAnimation-0.14-dev929.jar"/>
+	<classpathentry kind="lib" path="lib/AsapBML-0.41-dev1004.jar"/>
+	<classpathentry kind="lib" path="lib/openbmlparser-0.17-dev710.jar"/>
+	<classpathentry kind="lib" path="resource"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

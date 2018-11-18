@@ -1,0 +1,54 @@
+<VisemeToMorphMapping>
+  <Mapping viseme="AA" target="Body_NG-mesh-morpher-O-3"/>
+  <Mapping viseme="AE" target="Body_NG-mesh-morpher-A-2"/>
+  <Mapping viseme="AH" target="Body_NG-mesh-morpher-A-2"/>
+  <Mapping viseme="AO" target="Body_NG-mesh-morpher-A-2"/>
+  <Mapping viseme="AW" target="Body_NG-mesh-morpher-A-2"/>
+  <Mapping viseme="AX" target="Body_NG-mesh-morpher-U-4"/>
+  <Mapping viseme="AXR" target="Body_NG-mesh-morpher-U-4"/>
+  <Mapping viseme="AY" target="Body_NG-mesh-morpher-A-2"/>  
+  <Mapping viseme="B" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="CH" target="Body_NG-mesh-morpher-T_dent-13"/>
+  <Mapping viseme="D" target="Body_NG-mesh-morpher-T_dent-13"/>
+  <Mapping viseme="DD" target="Body_NG-mesh-morpher-T_dent-13"/>
+  <Mapping viseme="DX" target="Body_NG-mesh-morpher-T_dent-13"/>
+  <Mapping viseme="DH" target="Body_NG-mesh-morpher-T_dent-13"/>  
+  <Mapping viseme="EH" target="Body_NG-mesh-morpher-E-5"/>
+  <Mapping viseme="ER" target="Body_NG-mesh-morpher-I-6"/>
+  <Mapping viseme="EY" target="Body_NG-mesh-morpher-E-5"/>  
+  <Mapping viseme="F" target="Body_NG-mesh-morpher-F-7"/>
+  <Mapping viseme="G" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="HH" target="Body_NG-mesh-morpher-P_B-8"/>  
+  <Mapping viseme="IH" target="Body_NG-mesh-morpher-I-6"/>
+  <Mapping viseme="IX" target="Body_NG-mesh-morpher-I-6"/>
+  <Mapping viseme="IY" target="Body_NG-mesh-morpher-I-6"/>
+  <Mapping viseme="JH" target="Body_NG-mesh-morpher-I-6"/>
+  <Mapping viseme="K" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="KD" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="L" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="M" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="N" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="NG" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="OW" target="Body_NG-mesh-morpher-O-3"/>
+  <Mapping viseme="OY" target="Body_NG-mesh-morpher-O-3"/>
+  <Mapping viseme="P" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="R" target="Body_NG-mesh-morpher-P_B-8"/>
+  <Mapping viseme="S" target="Body_NG-mesh-morpher-T_dent-13"/>
+  <Mapping viseme="SH" target="Body_NG-mesh-morpher-T_dent-13"/>   
+  <Mapping viseme="T" target="Body_NG-mesh-morpher-T_dent-13"/>   
+  <Mapping viseme="TD" target="Body_NG-mesh-morpher-T_dent-13"/>     
+  <Mapping viseme="TH" target="Body_NG-mesh-morpher-T_dent-13"/>   
+  <Mapping viseme="TS" target="Body_NG-mesh-morpher-T_dent-13"/>   
+  <Mapping viseme="UH" target="Body_NG-mesh-morpher-O-3"/>   
+  <Mapping viseme="UW" target="Body_NG-mesh-morpher-U-4"/>   
+  <Mapping viseme="V" target="Body_NG-mesh-morpher-F-7"/>   
+  <Mapping viseme="W" target="Body_NG-mesh-morpher-F-7"/>   
+  <Mapping viseme="Y" target="Body_NG-mesh-morpher-I-6"/>   
+  <Mapping viseme="Z" target="Body_NG-mesh-morpher-T_dent-13"/>   
+  <Mapping viseme="ZH" target="Body_NG-mesh-morpher-T_dent-13"/>   
+  <Mapping viseme="SIL" intensity="0" target="Body_NG-mesh-morpher-T_dent-13"/>   
+  <Mapping viseme="+LAUGHTER+" target="Body_NG-mesh-morpher-O-3"/>   
+  <Mapping viseme="+LIPSMACK+" target="Body_NG-mesh-morpher-P_B-8"/>   
+  <Mapping viseme="+GARBAGE+" intensity="0" target="Body_NG-mesh-morpher-O-3"/>   
+  <Mapping viseme="+BREATHING+" intensity="0" target="Body_NG-mesh-morpher-O-3"/>   
+</VisemeToMorphMapping>

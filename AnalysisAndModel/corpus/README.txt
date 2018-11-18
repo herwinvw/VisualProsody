@@ -1,0 +1,1 @@
+Put the IEMOCAP corpus here (in a IEMOCAP_full_release subdirectory).
