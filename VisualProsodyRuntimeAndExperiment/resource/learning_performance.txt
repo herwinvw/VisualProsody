@@ -1,0 +1,10 @@
+BFGS (Weka) (prudence-hsmm);sum of log likelihood densities -18117.790926265432, cca 0.245642214581457, duration: 7785 ms
+BFGS (Weka) (ceretts hannah);sum of log likelihood densities -20424.00821199874, cca 0.255823312610916, duration: 8472 ms
+BFGS (Weka) (cmu-bdl-hsmm);sum of log likelihood densities -4131.155512938648, cca 0.197575782800898, duration 4521 ms
+
+L-BFGS (Stanford NLP) (prudence-hsmm): sum of log likelihood densities -38428.116417369354, cca 0.257053144399111, duration: 5115 ms
+conjugate gradient (Stanford NLP) (prudence-hsmm): sum of log likelihood densities -18975.789459557185, cca 0.132948629360626, duration: 27223 ms
+conjugate gradient (Weka) (prudence-hsmm): sum of log likelihood densities -18544.47088020434, cca 0.129273750177321, duration: 6341 ms
+
+gradient descent (Herwin) (prudence-hsmm): sum of log likelihood densities -18514.457642388123, cca 0.247259087151936, duration: 17451 ms
+gradient descent (Herwin) (ceretts hannah): sum of log likelihood densities -20894.156174575946, cca 0.0994277293562534, duration: 20312 ms

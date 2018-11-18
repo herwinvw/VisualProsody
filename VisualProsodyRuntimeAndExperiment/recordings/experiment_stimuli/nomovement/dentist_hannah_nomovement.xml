@@ -1,0 +1,17 @@
+<bml id="bml1" composition="MERGE" xmlns="http://www.bml-initiative.org/bml/bml-1.0">
+   <constraint xmlns="http://www.bml-initiative.org/bml/bml-1.0">
+      <synchronize xmlns="http://www.bml-initiative.org/bml/bml-1.0">
+         <sync ref="bml1:gaze1:start" xmlns="http://www.bml-initiative.org/bml/bml-1.0"/>
+         <sync ref="bml1:bml:start" xmlns="http://www.bml-initiative.org/bml/bml-1.0"/>
+      </synchronize>
+   </constraint>
+   <constraint xmlns="http://www.bml-initiative.org/bml/bml-1.0">
+      <synchronize xmlns="http://www.bml-initiative.org/bml/bml-1.0">
+         <sync ref="bml1:gaze1:end" xmlns="http://www.bml-initiative.org/bml/bml-1.0"/>
+         <sync ref="bml1:speech1:end+0.5" xmlns="http://www.bml-initiative.org/bml/bml-1.0"/>
+      </synchronize>
+   </constraint>
+   <speech id="bml1:speech1" xmlns="http://www.bml-initiative.org/bml/bml-1.0"><text>You have a dentist appointment on Friday morning, at 11:30.</text>
+   </speech>
+   <gaze target="camera" offsetAngle="3.0" offsetDirection="UP" influence="EYES" id="bml1:gaze1" xmlns="http://www.bml-initiative.org/bml/bml-1.0"/>
+</bml>

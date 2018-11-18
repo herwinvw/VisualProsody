@@ -1,0 +1,5 @@
+yu = AviSource("Ses01F_script01_3_F034_hannah_resize_fr.avi",audio=false)
+armandia = AviSource("Ses01F_script01_3_F034_hannah_yu.avi",audio=false)
+video = StackHorizontal(Trim(yu,17,0),Trim(armandia,0,0))
+audio = WavSource("Ses01F_script01_3_F034_hannah_yu.avi")
+AudioDubEx(video,audio)

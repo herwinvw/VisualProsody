@@ -1,0 +1,31 @@
+<ivy-module version="2.0">
+   <info organisation="Asap" module="VisualProsody"/>
+   <configurations>
+      <include file="${ivy.settings.dir}/configurations.xml"/>
+   </configurations>
+   <dependencies>
+      <dependency org="HMI"     name="HmiTTSMary5"   rev="latest.${resolve.status}"  />  
+	  <dependency org="HMI"     name="HmiMath"   rev="latest.${resolve.status}"  />  
+	  <dependency org="HMI"     name="HmiAnimation"   rev="latest.${resolve.status}"  />  
+	  <dependency org="HMI"     name="HmiFaceAnimation"   rev="latest.${resolve.status}"  />  
+	  <dependency org="Asap"     name="AsapBML"   rev="latest.${resolve.status}"  />  
+	  <dependency org="Asap"     name="AsapTTSIpaaca"   rev="latest.${resolve.status}"  />  
+	  	  
+	  <dependency org="apache" name="commons-math3" rev="latest.release"  />
+      <dependency org="marytts" name="voice-dfki-pavoque-neutral-hsmm"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-dfki-prudence-hsmm"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-dfki-prudence"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-dfki-obadiah"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-dfki-obadiah-hsmm"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-dfki-poppy"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-dfki-poppy-hsmm"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-cmu-bdl-hsmm"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-cmu-rms-hsmm"       rev="latest.release"  />
+	  <dependency org="marytts" name="voice-cmu-slt-hsmm"       rev="latest.release"  />
+
+	  <dependency org="saiba"     name="openbmlparser"   rev="latest.${resolve.status}"  />  
+	  <dependency org="logback"  name="logback-classic"    rev="latest.release"  />   
+      <dependency org="logback"  name="logback-core"       rev="latest.release"  />
+	  <dependency org="HMI"   name="LogbackConfigs"     rev="latest.${resolve.status}"   />
+   </dependencies>
+</ivy-module>
